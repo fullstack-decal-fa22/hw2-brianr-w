@@ -19,7 +19,6 @@ h2 {
 
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
-
 .flag {
   height: 300px;
   width: 500px;
@@ -29,9 +28,19 @@ h2 {
 
 .twovert {
   height: 50%;
+  /* background-color: red; */
+}
+
+.red{
+  background-color: red;
+}
+
+#white {
+  background-color: white;
 }
 
 .threevert {
+  height: 33.33333%;
 }
 
 .threehoriz {
@@ -75,7 +84,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -94,20 +103,33 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  height: 15%;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: #FFF;
+  height: 20%;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 30%;
+}
+
+.stripe{
+  width: 100%;
 }
 
 /* END QUESTION 2 */
 
 /* BEGIN QUESTION 3 */
+
+.rom{
+  width: 33.33333%;
+  height: 100%;
+  display: inline-flex;
+}
 
 .romania-blue {
   background-color: #002c84;
@@ -115,25 +137,51 @@ h2 {
 
 .romania-yellow {
   background-color: #ffcf00;
+  margin-left: -4px;
 }
 
 .romania-red {
   background-color: #e10017;
+  margin-left: -4px;
 }
 
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
+.mexico-green, .mexico-red{
+  height: 100%;
+  width: 33%;
+}
+
+.mexico-green, img, .mexico-red{
+  display: inline-flex;
+}
+
 .mexico-green {
   background-color: #006341;
 }
 
-.mexico-img {
-  /* TODO */
+.flag img {
+  width: 30%;
+  padding-left: 1.2%;
+  padding-right: 1.2%;
+  padding-bottom: 15%;
 }
 
 .mexico-red {
   background-color: #ce1126;
+}
+
+/* QUESTION 5 */
+.label{
+  background-color: teal;
+  color: white;
+}
+
+.label:hover{
+  background-color: yellow;
+  color: black;
+  border: 10px solid yellow;
 }
 
 /* QUESTION 6 */
@@ -149,17 +197,17 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin-right: 5px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin-left: 5px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 60px;
 }
